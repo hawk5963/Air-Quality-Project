@@ -91,7 +91,7 @@
 
 				var radius = distance;
 
-				var url1 = "https://api.openaq.org/v1/latest?coordinates=" + latitude + "," + longitude + "&radius=" + radius + "&limit=100";
+				var url1 = "https://api.openaq.org/v1/latest?coordinates=" + latitude + "," + longitude + "&radius=" + radius + "&limit=10000";
 
 				if(i_box.filter!="none"){
 					console.log("filtering")
@@ -269,7 +269,7 @@
 
 				var radius = distance;
 
-				var url2 = "https://api.openaq.org/v1/latest?coordinates=" + latitude2 + "," + longitude2 + "&radius=" + radius + "&limit=100";
+				var url2 = "https://api.openaq.org/v1/latest?coordinates=" + latitude2 + "," + longitude2 + "&radius=" + radius + "&limit=10000";
 
 				if(i_box2.filter2!="none"){
 					console.log("filtering")
